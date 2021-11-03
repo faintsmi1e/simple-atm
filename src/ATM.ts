@@ -8,17 +8,13 @@ interface MoneyObject {
 
 class ATM implements ATM {
   constructor(moneyObject: MoneyObject) {
-    this.obj = {
-
-    }
-    for (let key in moneyObject) {
-      this.obj[key] = moneyObject[key];
-    }
+    this.obj = {};
     let summ = 0;
     for (let key in moneyObject) {
+      this.obj[key] = moneyObject[key];
       summ += Number(moneyObject[key]);
     }
-
+    
     this.proportions = [
       this.obj['5000'] / summ,
       this.obj['2000'] / summ,
@@ -64,21 +60,22 @@ class ATM implements ATM {
   }
   getMoney(summ: string | number) {
     let currentSum = Number(summ);
+    if (currentSum % 50 !== 0) {
+      throw new Error('Неверная сумма');
+    }
     const objClone: MoneyObject = {};
     for (let key in this.obj) {
       objClone[key] = this.obj[key];
     }
-    if ((Number(summ) % 50) !== 0) {
-      throw new Error('Неверная сумма');
-    }
+    
 
     while (currentSum > 0) {
       const rnd = Math.random();
       const bill = this._getProportionalBill(rnd, currentSum);
       currentSum -= Number(bill);
-      
+
       if (bill) {
-        this.obj[bill] -= 1
+        this.obj[bill] -= 1;
       }
       const lastBills = this._setProportions();
       if (!lastBills) {
