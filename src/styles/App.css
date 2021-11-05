@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.List {
+  justify-content: center;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -59,6 +59,7 @@ class ATM implements ATM {
     }
   }
   getMoney(summ: string | number) {
+    
     let currentSum = Number(summ);
     if (currentSum % 50 !== 0) {
       throw new Error('Неверная сумма');
@@ -82,7 +83,7 @@ class ATM implements ATM {
         throw new Error('В банкомате недостаточно средств');
       }
     }
-
+    
     return this.obj;
   }
 
@@ -101,4 +102,12 @@ class ATM implements ATM {
 // console.log(newATM.proportions);
 // console.log(newATM.getAtmBalance());
 
-export default ATM;
+export default new ATM({
+  50: 0,
+  100: 0,
+  200: 0,
+  500: 0,
+  1000: 0,
+  2000: 0,
+  5000: 0,
+});

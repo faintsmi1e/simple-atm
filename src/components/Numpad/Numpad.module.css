@@ -1,0 +1,13 @@
+.Numpad {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Numpad>* {
+  flex: 1 1 30%;
+}
+
+.NumpadButton {
+  box-sizing: border-box;
+  margin: 0 5px;
+  margin-top: 5px;
+}
