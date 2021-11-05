@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/simple-atm/static/css/main.17871923.chunk.css",
+    "main.js": "/simple-atm/static/js/main.04c7cddd.chunk.js",
+    "main.js.map": "/simple-atm/static/js/main.04c7cddd.chunk.js.map",
+    "runtime-main.js": "/simple-atm/static/js/runtime-main.eb86a383.js",
+    "runtime-main.js.map": "/simple-atm/static/js/runtime-main.eb86a383.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/simple-atm/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2b82f586.chunk.js": "/simple-atm/static/js/2.2b82f586.chunk.js",
+    "static/js/2.2b82f586.chunk.js.map": "/simple-atm/static/js/2.2b82f586.chunk.js.map",
+    "index.html": "/simple-atm/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/simple-atm/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.17871923.chunk.css.map": "/simple-atm/static/css/main.17871923.chunk.css.map",
+    "static/js/2.2b82f586.chunk.js.LICENSE.txt": "/simple-atm/static/js/2.2b82f586.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb86a383.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2b82f586.chunk.js",
+    "static/css/main.17871923.chunk.css",
+    "static/js/main.04c7cddd.chunk.js"
+  ]
+}
