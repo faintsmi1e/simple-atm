@@ -13,7 +13,7 @@ ATM-input
 
 <details>
   <summary>More Screenshots</summary>
-  Enter Page   
+  Enter Page      
   <img src="https://github.com/pinosol/readme-assets/blob/master/simple-atm/atms.jpg" />
 
   Success window   
