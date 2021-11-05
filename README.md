@@ -12,8 +12,9 @@ ATM-input
 <img src="https://github.com/pinosol/readme-assets/blob/master/simple-atm/input.jpg" />
 
 <details>
-  <summary>More Screenshots</summary>
-  Enter Page      
+  <summary>More Screenshots</summary>   
+       
+  Enter Page           
   <img src="https://github.com/pinosol/readme-assets/blob/master/simple-atm/atms.jpg" />
 
   Success window   
