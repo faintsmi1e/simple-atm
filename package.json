@@ -1,4 +1,4 @@
-{
+{ "homepage": "http://pinosol.github.io/simple-atm",
   "name": "atm",
   "version": "0.1.0",
   "private": true,

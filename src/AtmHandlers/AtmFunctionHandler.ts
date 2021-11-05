@@ -80,6 +80,10 @@ function getMoney(summ: string | number, obj: MoneyObject) {
       summ += proportions[i];
     }
     if (!summ) {
+      for (let key in obj) {
+        obj[key] = objClone[key];
+      }
+
       throw new Error('В банкомате недостаточно средств');
     }
   }
