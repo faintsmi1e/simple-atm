@@ -83,8 +83,11 @@ function getMoney(summ: string | number, obj: MoneyObject) {
       throw new Error('В банкомате недостаточно средств');
     }
   }
-
-  return obj;
+  const diffObj: MoneyObject = {};
+  for (let key in obj) {
+    diffObj[key] = objClone[key] - obj[key];
+  }
+  return [obj,diffObj];
 }
 
 export default getMoney;

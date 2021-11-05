@@ -1,0 +1,13 @@
+.ModalText {
+  
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+  
+}
+.ModalBill {
+  min-width: 130px;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}

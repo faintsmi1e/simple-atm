@@ -3,10 +3,10 @@ import { Button } from 'react-bootstrap';
 import classes from './Numpad.module.css';
 const Numpad = ({ onNumpadClick }) => {
   const addNumpad = () => {
-    const numpad = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-    return numpad.map((num) => {
+    const numpad = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '000','0','<'];
+    return numpad.map((num, id) => {
       return (
-        <Button className={classes.NumpadButton}type='button' onClick={onNumpadClick}>
+        <Button key={id} className={classes.NumpadButton} type='button' onClick={onNumpadClick}>
           {num}
         </Button>
       );

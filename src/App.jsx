@@ -9,7 +9,7 @@ import Layout from './layouts/Layout';
 
 const App = () => {
   return (
-    <div className='App'>
+    <div >
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
