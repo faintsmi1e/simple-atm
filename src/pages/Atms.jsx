@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import moneyState from '../moneyArray';
 import Atm from '../components/Atm/Atm';
 
